@@ -16,7 +16,7 @@ But recently one other thing I am is a :sparkles:programmer:sparkles: which is p
 Without further ado... the projects...
 
 ### Data analysis + data viz
-- [Just how far does Bryson DeChambeau swing?](https://github.com/kathrwn/brysondechambeau/blob/main/bryson%20dechambeau.ipynb) :golfing:
+- [Just how far does Bryson DeChambeau drive?](https://github.com/kathrwn/brysondechambeau/blob/main/bryson%20dechambeau.ipynb) :golfing:
 
 ### Using APIs
 - [Let's study for Jeopardy!](https://github.com/kathrwn/jeopardy/blob/main/jeopardy%20studying.ipynb) :interrobang:
