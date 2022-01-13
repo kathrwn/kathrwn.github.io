@@ -21,6 +21,9 @@ Without further ado... the projects...
 ### Using APIs
 - [Let's study for Jeopardy!](https://github.com/kathrwn/jeopardy/blob/main/jeopardy%20studying.ipynb) :interrobang:
 
+
+![c'est moi](https://i.imgur.com/3PScBhl.png)
+
 [^note]: My friends call me Kate <3
 [^1]: https://fas.org/expert/kathryn-kohn/
 [^2]: https://www.gravelinstitute.org/about
