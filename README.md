@@ -17,12 +17,17 @@ Without further ado... the projects...
 
 ### Data analysis + data viz
 - [Just how far does Bryson DeChambeau drive?](https://github.com/kathrwn/brysondechambeau/blob/main/bryson%20dechambeau.ipynb) :golfing:
+- [Kanto Region population density map](https://public.tableau.com/app/profile/kate.kohn/viz/KantoRegionPopulationDensityMap/Dashboard1?publish=yes) :joystick:
 
 ### Using APIs
 - [Let's study for Jeopardy!](https://github.com/kathrwn/jeopardy/blob/main/jeopardy%20studying.ipynb) :interrobang:
 
-
-![c'est moi](https://i.imgur.com/3PScBhl.png)
+### Nuclear data viz :rocket:
+- [Estimated Global Nuclear Warhead Inventories 1945-2021](https://public.tableau.com/app/profile/kate.kohn/viz/EstimatedGlobalNuclearWarheadInventories1945-2021/Dashboard1)
+- [Estimated Global Nuclear Warhead Inventories, 2021](https://public.tableau.com/app/profile/kate.kohn/viz/EstimatedGlobalNuclearWarheadInventories2021/Dashboard1)
+- [Yumen Missile Silo Field Over Time - updated 11/21](https://public.tableau.com/app/profile/kate.kohn/viz/YumenMissileSiloField/Dashboard1)
+- [Hami Missile Silo Field Over Time - updated 11/21](https://public.tableau.com/app/profile/kate.kohn/viz/HamiMissileSiloField/Dashboard1)
+- [Ordos Missile Silo Field Over Time - updated 1/22](https://public.tableau.com/app/profile/kate.kohn/viz/OrdosMissileSiloField/Dashboard1)
 
 [^note]: My friends call me Kate <3
 [^1]: https://fas.org/expert/kathryn-kohn/
