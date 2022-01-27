@@ -13,10 +13,13 @@ Hi, I'm Kathryn.[^note] I'm, well, a lot of things. Like...
 
 But recently one other thing I am is a :sparkles:programmer:sparkles: which is probably why you're here. Below you'll find a list of my projects, organized by discipline. I am currently learning Python and JavaScript, have experience in HTML and CSS (RIP Tumblr), and am also working on some more technical projects like making a painting that plays music. 
 
-Without further ado... the projects...
+Crucially, I want to note that this page is a constant work in progress. My 2022 resolution is to take on a programming challenge every month, so visit often for best results. Thanks! <3
+
+Without further ado, the projects:
 
 ### Data analysis + data viz
 - [Just how far does Bryson DeChambeau drive?](https://github.com/kathrwn/brysondechambeau/blob/main/bryson%20dechambeau.ipynb) :golfing:
+- [One new albums a day in 2021, the visualizer](https://github.com/kathrwn/new-albums-2021/blob/main/album%20viz.ipynb) :cd:
 - [Kanto Region population density map](https://public.tableau.com/app/profile/kate.kohn/viz/KantoRegionPopulationDensityMap/Dashboard1?publish=yes) :joystick:
 
 ### Using APIs
