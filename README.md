@@ -19,7 +19,7 @@ Without further ado, the projects:
 
 ### Data analysis + data viz
 - [Just how far does Bryson DeChambeau drive?](https://github.com/kathrwn/brysondechambeau/blob/main/bryson%20dechambeau.ipynb) :golfing:
-- [One new albums a day in 2021, the visualizer](https://github.com/kathrwn/new-albums-2021/blob/main/album%20viz.ipynb) :cd:
+- [One new album a day in 2021, the visualizer](https://github.com/kathrwn/new-albums-2021/blob/main/album%20viz.ipynb) :cd:
 - [Kanto Region population density map](https://public.tableau.com/app/profile/kate.kohn/viz/KantoRegionPopulationDensityMap/Dashboard1?publish=yes) :joystick:
 
 ### Using APIs
