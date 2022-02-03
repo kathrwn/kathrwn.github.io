@@ -1,6 +1,4 @@
 ## Hiya !
-### Bienvenue !!
-#### ようこそ !!!
 
 Hi, I'm Kathryn.[^note] I'm, well, a lot of things. Like...
 
@@ -31,6 +29,8 @@ Without further ado, the projects:
 - [Yumen Missile Silo Field Over Time - updated 11/21](https://public.tableau.com/app/profile/kate.kohn/viz/YumenMissileSiloField/Dashboard1)
 - [Hami Missile Silo Field Over Time - updated 11/21](https://public.tableau.com/app/profile/kate.kohn/viz/HamiMissileSiloField/Dashboard1)
 - [Ordos Missile Silo Field Over Time - updated 1/22](https://public.tableau.com/app/profile/kate.kohn/viz/OrdosMissileSiloField/Dashboard1)
+
+### [Contact](https://kathrwn.github.io/contact.html)
 
 [^note]: My friends call me Kate <3
 [^1]: https://fas.org/expert/kathryn-kohn/
