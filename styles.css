@@ -1,0 +1,66 @@
+body {
+  background-color: #23022E;
+  margin: 75px 150px 50px 150px;
+}
+
+h1 {
+  font-weight: 400;
+  color: #CFBCDF;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #CAB6CD;
+   font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "About-text About-text About-text"
+    "Contact-info Selected-publications Selected-projects"
+    "Hobbies Selected-publications Selected-projects"; 
+}
+.About-text { grid-area: About-text; }
+.Contact-info { grid-area: Contact-info; }
+.Hobbies { grid-area: Hobbies; }
+.Selected-projects { grid-area: Selected-projects; }
+.Selected-publications { grid-area: Selected-publications; }
+
+p {
+  color: #BA8F95;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+ul {
+list-style-type: "\2055"; // thumbs up sign;
+  line-height: 1.6;
+  
+}
+
+li {
+  color: #CAB6CD;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+a {
+  color:#CAB6CD;
+    text-decoration-line: underline;
+   
+}
+
+a:hover {
+  color:#BA8F95;
+    text-decoration-line: underline;
+  text-decoration-style: wavy;
+   
+}
