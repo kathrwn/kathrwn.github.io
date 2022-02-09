@@ -1,0 +1,60 @@
+body {
+  background-color: #23022E;
+  margin: 75px 150px 50px 150px;
+}
+
+h1 {
+  font-weight: 400;
+  color: #CFBCDF;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #CAB6CD;
+   font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+p {
+  color: #BA8F95;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+ul {
+list-style-type: "\2055"; // thumbs up sign;
+  line-height: 1.6;
+  
+}
+
+li {
+  color: #CAB6CD;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}
+
+a {
+  color:#CAB6CD;
+    text-decoration-line: underline;
+   
+}
+
+a:hover {
+  color:#BA8F95;
+    text-decoration-line: underline;
+  text-decoration-style: wavy;
+   
+}
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "Nukes Others"; 
+}
+.Nukes { grid-area: Nukes; }
+.Others { grid-area: Others; }
