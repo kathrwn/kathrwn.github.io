@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>  <link rel="stylesheet" href="styles.css">Um, hi!</head>
+<body>
+  <h1>One New Album A Day, 2021</h1>
+ <p>I decided to listen to one new album a day in 2021. This whole pandemic thing was getting tedious, and I needed a funky personal project to spice things up. So, I decided to challenge my ears, my sensibilites, and my sanity and listen to a new album every day.</p>
+  <h2>The project</h2>
+  <p>One of my aims was to diversify my taste and find hidden gems I might have never heard had I not sought them out. Below I'm going to take a look at the statistics of the albums I did listen to, and maybe even run a couple of analyses on their Spotify data (though I stream on Apple Music.)</p><p>So, first things first, here are all the cute little libraries I brought in</p>
+  <pre><code>import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import ttest_ind
+
+df = pd.read_csv("Documents/albums.csv")
+</code></pre>
+  <h2>Mapping genre diversity</h2>
+  <pre><code>print(df.head())</code></pre>
+    <pre><code>       Date                                              Album  \
+0  January 1  Presenting the Fabulous Ronettes Featuring Ver...   
+1  January 2                          Heaven To a Tortured Mind   
+2  January 3                               After Hours (Deluxe)   
+3  January 4                                         Inner Song   
+4  January 5                                    Lianne La Havas   
+
+            Artist    Recommender  Description Language  \
+0     The Ronettes            Mom          Pop  English   
+1       Yves Tumor  Mic the Snare      Alt pop  English   
+2       The Weeknd            NaN     R&B/Soul  English   
+3  Kelly Lee Owens  Mic the Snare  Electronica  English   
+4  Lianne La Havas  Mic the Snare     R&B/Soul  English   
+
+                                              Review Country  Year  
+0  Everything you could want from a 60s girl grou...      US  1964  
+1                                              *****      US  2020  
+2                                   the hype is real  Canada  2020  
+3                                                NaN      UK  2020  
+4                                                NaN      UK  2020  </code></pre>
+  <p> Time for everyone's favorite part... graphs!</p>
+<pre><code>ax = sns.countplot(x="Description", data=df)
+plt.ylabel('Count')
+plt.xlabel('Album Genre')
+ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
+plt.title("Genre Diversity")
+
+<img src="https://imgur.com/E81j98K.png" alt="Genre Diversity"></code></pre>
+  <p>More... more!!!</p>
+  <pre><code>ax = sns.stripplot(x="Year", y="Description", data=df)
+plt.ylabel('Album Genre')
+plt.xlabel('Album Release Year')
+plt.title("Genre Diversity by Release Year")
+
+<img src="https://i.imgur.com/tRJdzKw.png" alt="Genre Diversity by Release Year">
+</code></pre>
+  <h2>Mapping georgaphic diversity</h2>
+  <p>Sure, we listened to a diversity of genres, but what if we went on a global tour of where our albums were from?<p>
+ <pre><code>import plotly.graph_objects as go
+
+fig = go.Figure(data=go.Choropleth(
+    locations = df2['CODE'],
+    z = df2['COUNT'],
+    colorscale = 'Purpor',
+    autocolorscale=False,
+    reversescale=False,
+    marker_line_color='white',
+    marker_line_width=0.2,
+    colorbar_title = '# of Albums',
+))
+
+fig.update_layout(
+    title_text='Geographic diversity of albums listened to in 2021',
+    geo=dict(
+        showframe=False,
+        showcoastlines=False,
+        projection_type="natural earth"
+    ),
+    annotations = [dict(
+        x=0.5,
+        y=0.1,
+        xref='paper',
+        yref='paper',
+        showarrow = False
+    )]
+)
+
+fig.show()</code></pre>
+  
+  <div>
+    <a href="https://plotly.com/~kathrwn/1/?share_key=Gz4NB2FhLSxHsNCSokw3In" target="_blank" title="albums_2021" style="display: block; text-align: center;"><img src="https://plotly.com/~kathrwn/1.png?share_key=Gz4NB2FhLSxHsNCSokw3In" alt="albums_2021" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="kathrwn:1" sharekey-plotly="Gz4NB2FhLSxHsNCSokw3In" src="https://plotly.com/embed.js" async></script>
+</div>
+<h2>Mapping linguistic diversity</h2>
+  <p>Graph attack!</p>
+  <pre><code>ax = sns.countplot(x="Language", data=df)
+plt.ylabel('Count')
+plt.xlabel('Album Genre')
+ax.set_xticklabels(ax.get_xticklabels(), rotation=90)
+plt.title("Linguistic Diversity")
+
+<img src="https://i.imgur.com/9N71kOp.png" alt="Genre Diversity"></code></pre>
+</body>
+</html>
