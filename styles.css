@@ -24,7 +24,6 @@ h2 {
   gap: 2px; 
   grid-template-areas: 
     "Home Research Data Contact";
-  width: 10%; 
   align-items: center;
   justify-items: center;
   margin: auto;
