@@ -17,22 +17,22 @@ h2 {
   font-weight: normal;
 }
 
-
 .container {
   display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr; 
-  gap: 0px 0px; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 2px; 
   grid-template-areas: 
-    "About-text About-text About-text"
-    "Contact-info Selected-publications Selected-projects"
-    "Hobbies Selected-publications Selected-projects"; 
+    "Home Research Data Contact";
+  width: 30%; 
+  align-items: center;
+  justify-items: center;
+  margin: auto;
 }
-.About-text { grid-area: About-text; }
-.Contact-info { grid-area: Contact-info; }
-.Hobbies { grid-area: Hobbies; }
-.Selected-projects { grid-area: Selected-projects; }
-.Selected-publications { grid-area: Selected-publications; }
+.Home { grid-area: Home; }
+.Research { grid-area: Research; }
+.Data { grid-area: Data; }
+.Contact { grid-area: Contact; }
 
 p {
   color: #BA8F95;
@@ -67,7 +67,7 @@ a:hover {
 
 /* Code in text */
 code {
-  background: #a3658e;
+  background: #ffeff0;
   word-wrap: break-word;
   box-decoration-break: clone;
   padding: .1rem .3rem .2rem;
